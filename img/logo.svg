@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 385 95">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-6 {
+        fill: #616161;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.406" y1="0.469" x2="0.981" y2="1.102" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc0"/>
+      <stop offset="1" stop-color="#c19a00"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="78.252" cy="37.75" r="14.177" gradientTransform="translate(1.138 1.218) scale(0.9 0.81)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffba"/>
+      <stop offset="1" stop-color="#ff0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="28.275" cy="124.92" r="15.207" gradientTransform="translate(1.532 1.751) scale(0.866 0.749)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="124.583" cy="119.15" r="15.207" gradientTransform="translate(1.036 0.304) scale(0.866 0.749)" xlink:href="#radial-gradient"/>
+    <clipPath id="clip-logo">
+      <rect width="385" height="95"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <g id="triforce" transform="translate(-98.027 -10.412)">
+      <path id="Path_5" data-name="Path 5" class="cls-2" d="M128.646,110l18.646,32.295H110Z" transform="translate(18.646 -87)"/>
+      <path id="use2398" class="cls-2" d="M18.646,32.295,37.292,0H0Z" transform="translate(184.583 87.738) rotate(180)"/>
+      <path id="Back-Tri" class="cls-2" d="M18.646,32.295,37.292,0H0Z" transform="translate(147.292 87.738) rotate(180)"/>
+      <path id="Power" class="cls-3" d="M66.875,54.308H92.392L79.633,31.344Z" transform="translate(67.73 -2.232)"/>
+      <path id="Courage" class="cls-4" d="M16.875,140.725H43.2L30.038,117.938Z" transform="translate(135.881 -55.726)"/>
+      <path id="Wisdom" class="cls-5" d="M116.875,140.725H143.2l-13.163-22.787Z" transform="translate(-1.311 -55.726)"/>
+    </g>
+  </g>
+</svg>
